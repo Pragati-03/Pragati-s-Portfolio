@@ -2,14 +2,7 @@ import NotebookPage from "../notebook/NotebookPage";
 import ProjectCard from "../notebook/ProjectCard";
 
 const projects = [
-  {
-    title: "Intelligent Waste Classifier",
-    description: "I tried to make a CNN that sorts trash. It worked because transfer learning is magic.",
-    tech: ["Python", "TensorFlow", "OpenCV"],
-    github: "#",
-    demo: "#",
-    rotation: -1,
-  },
+  
   {
     title: "MindTrack",
     description: "A mood journal app to track emotions daily. Built it to learn full-stack web dev and ended up actually using it.",
@@ -57,6 +50,14 @@ const projects = [
     github: "https://github.com/Pragati-03/profit-killer-dashboard",
     demo: "https://profitkillerdashboard.netlify.app/",
     rotation: 0.5,
+  },
+  {
+    title: "Intelligent Waste Classifier",
+    description: "I am trying to make a CNN that sorts trash. It is working because transfer learning is magic.",
+    tech: ["Python", "TensorFlow", "OpenCV"],
+    github: "#",
+    demo: "#",
+    rotation: -1,
   },
 ];
 
