@@ -4,6 +4,13 @@ import { Award, Medal, Trophy, Star, Code, BookOpen } from "lucide-react";
 
 const achievements = [
   {
+  icon: Trophy,
+  title: "TCS CodeVita Season 13 — Global Rank 5337",
+  desc: "Competed in one of the world’s largest coding contests and secured a rank in the top few thousand globally.",
+  color: "yellow" as const,
+  rotation: -2,
+},
+  {
     icon: Trophy,
     title: "Medecro Hackathon — Finalist",
     desc: "Made it to the final round (Aug 2024). Didn't win the trophy but survived every elimination — that counts.",
