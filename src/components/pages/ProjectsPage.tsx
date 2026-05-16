@@ -12,6 +12,14 @@ const projects = [
     rotation: 1.5,
   },
   {
+  title: "Data Cleaning Assistant",
+  description: "An AI-powered tool that automates 80% of data preprocessing tasks by detecting missing values, fixing data types, flagging outliers, and explaining anomalies using ML-based insights.",
+  tech: ["Python", "Pandas", "Scikit-learn", "SHAP", "Plotly", "Streamlit"],
+  github: "https://github.com/Pragati-03/data-cleaning-assistant.git",
+  demo: "https://data-cleaning-assistant-0.streamlit.app/",
+  rotation: 1.5,
+},
+  {
     title: "Restaurant Reservation System",
     description: "Table booking app with real-time availability. React taught me state management the hard way.",
     tech: ["HTML","React", "Tailwind", "Supabase"],

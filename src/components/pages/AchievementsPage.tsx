@@ -59,13 +59,7 @@ const achievements = [
     color: "yellow" as const,
     rotation: 1,
   },
-  {
-    icon: BookOpen,
-    title: "Research Paper — In Progress",
-    desc: "Currently working on a research paper. Stay tuned — the best is yet to come.",
-    color: "blue" as const,
-    rotation: -0.5,
-  },
+  
 ];
 
 const AchievementsPage = () => (
