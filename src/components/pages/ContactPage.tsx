@@ -1,19 +1,25 @@
 import NotebookPage from "../notebook/NotebookPage";
 import DoodleSvg from "../notebook/DoodleSvg";
-import { Mail, Linkedin, Github, Twitter } from "lucide-react";
+import { Mail, Linkedin, Github, FileText } from "lucide-react";
 
 const links = [
-  { icon: Mail, label: "pragatiagarwal2004@email.com", href: "mailto:pragatiagarwal2004@email.com" },
+  { icon: Mail, label: "pragatiagarwal2004@gmail.com", href: "mailto:pragatiagarwal2004@gmail.com" },
   { icon: Linkedin, label: "Linkedin", href: "https://linkedin.com/in/pragati-agrawal-77624a24a" },
   { icon: Github, label: "Github", href: "https://github.com/Pragati-03" },
-  // { icon: Twitter, label: "@pragati_dev", href: "#" },
+  {
+    icon: FileText,
+    label: "Resume",
+    href: "https://drive.google.com/file/d/1IoQW1sIhJnHIm0TIWYFHrOdwREbrf8po/view?usp=sharing",
+  },
+
 ];
 
 const ContactPage = () => (
   <NotebookPage title="Let's Connect ✨">
     <div className="max-w-md space-y-8">
       <p className="font-body text-ink-pen text-lg">
-        Want to collaborate, chat about ML, or just say hi? I'd love to hear from you!
+        Want to collaborate, talk about software development,
+        explore new ideas, or just say hi? I'd love to hear from you!
       </p>
 
       <div className="space-y-4">

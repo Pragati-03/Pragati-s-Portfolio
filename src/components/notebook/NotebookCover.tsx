@@ -6,8 +6,10 @@ interface NotebookCoverProps {
 }
 
 const NotebookCover = ({ onOpen }: NotebookCoverProps) => (
-  <motion.div
-    className="cover-texture rounded-xl notebook-shadow cursor-pointer relative overflow-hidden select-none"
+  <motion.button
+    type="button"
+    aria-label="Open portfolio"
+    className="cover-texture rounded-xl notebook-shadow cursor-pointer relative overflow-hidden select-none text-center border-0"
     style={{ width: "min(90vw, 700px)", height: "min(85vh, 900px)" }}
     whileHover={{ scale: 1.01 }}
     whileTap={{ scale: 0.99 }}
@@ -26,7 +28,7 @@ const NotebookCover = ({ onOpen }: NotebookCoverProps) => (
         </h1>
         <div className="w-3/4 mx-auto h-[2px] bg-ink-pen/20 mb-3" />
         <p className="font-body text-ink-pen/70 text-lg">
-          CS Student · ML · Web Dev
+          Python · Software Development · Data & AI
         </p>
       </div>
     </div>
@@ -51,7 +53,7 @@ const NotebookCover = ({ onOpen }: NotebookCoverProps) => (
     >
       Click to open →
     </motion.p>
-  </motion.div>
+  </motion.button>
 );
 
 export default NotebookCover;

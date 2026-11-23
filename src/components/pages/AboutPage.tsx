@@ -7,16 +7,19 @@ const AboutPage = () => (
     <div className="flex flex-col md:flex-row gap-8 items-start">
       <div className="flex-1 space-y-4 font-body text-ink-pen text-lg">
         <p>
-          Hey there! 👋 I'm <span className="highlight">Pragati Agrawal</span>, a final-year CS student who's
-          obsessed with the intersection of <span className="highlight">machine learning</span> and
-          <span className="highlight">web development</span>.
+          Hey there! 👋 I'm <span className="highlight">Pragati Agrawal</span>,
+          a Computer Science graduate from VIT Bhopal.
+          Python is my main language, and I'm most interested in
+          <span className="highlight">building practical software</span>,from APIs and databases to user-facing applications..
         </p>
         <p>
-          I build neural networks and clean interfaces. Usually at the same time.
+          I enjoy building APIs, working with databases, and exploring
+          the reliability side of backend systems, from background
+          jobs to retries.
         </p>
         <p className="text-sm font-mono text-ink-code/70 mt-4">
-          // Note to self: The gradient descent on the waste classifier model was a nightmare.
-          // But it worked. Eventually.
+        // Note to self: Note to self: Keep building, keep breaking things.
+           That's how the learning happens.
         </p>
         <div className="mt-6 space-y-2">
           <p>📍 Based in India</p>

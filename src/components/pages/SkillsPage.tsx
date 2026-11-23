@@ -1,32 +1,53 @@
 import NotebookPage from "../notebook/NotebookPage";
 import StickyNote from "../notebook/StickyNote";
 
+  
 const skillGroups = [
   {
     title: "Programming",
-    skills: ["Python", "Java", "C++", "JavaScript", "TypeScript"],
+    skills: ["Python", "SQL", "TypeScript", "JavaScript"],
     color: "yellow" as const,
     rotation: -1,
   },
   {
-    title: "Web Development",
-    skills: ["React", "Node.js", "Tailwind CSS","Express.js","HTML/CSS"],
+    title: "Backend",
+    skills: ["FastAPI", "REST APIs", "Redis", "Node.js"],
     color: "blue" as const,
     rotation: 1.5,
   },
   {
-    title: "Machine Learning",
-    skills: ["TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy"],
+    title: "Frontend",
+    skills: ["React", "Tailwind CSS", "Recharts", "Chart.js"],
     color: "green" as const,
     rotation: -0.5,
   },
   {
-    title: "Tools & Platforms",
-    skills: ["Git", "VS Code", "Jupyter", "Linux", "Power BI", "MySQL"],
+    title: "Databases",
+    skills: ["PostgreSQL", "Supabase"],
     color: "orange" as const,
     rotation: 2,
   },
+  {
+    title: "Data & AI",
+    skills: [
+      "Pandas",
+      "Scikit-learn",
+      "SHAP",
+      "Plotly",
+      "Streamlit",
+      "LLM API Integration",
+    ],
+    color: "yellow" as const,
+    rotation: -1,
+  },
+  {
+    title: "Developer Tools",
+    skills: ["Git", "GitHub", "Vercel"],
+    color: "blue" as const,
+    rotation: 1.5,
+  },
 ];
+
 
 const SkillsPage = () => (
   <NotebookPage title="Skills">
