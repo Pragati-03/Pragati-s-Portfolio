@@ -18,7 +18,7 @@ const AboutPage = () => (
           jobs to retries.
         </p>
         <p className="text-sm font-mono text-ink-code/70 mt-4">
-        // Note to self: Note to self: Keep building, keep breaking things.
+        // Note to self: Keep building, keep breaking things.
            That's how the learning happens.
         </p>
         <div className="mt-6 space-y-2">
